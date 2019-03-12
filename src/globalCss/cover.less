@@ -1,0 +1,90 @@
+.common-footer{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: #3193f3;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+
+/*父窗口上加该class，子项溢出的部分会被放置到新行，子项内部会发生断行 */
+.flex-wrap{    
+    -webkit-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+.flex{
+    display:-webkit-flex;
+	display:flex;
+}
+.flex1{
+    -webkit-flex:1;
+    flex:1;
+}
+
+.el-table th {
+    background:rgb(246,246,246);
+}
+
+/*表格中操作*/
+.blue-span{
+    color: #3193f3;
+    border-bottom: 1px solid #3193f3;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.red-span{
+    color: #fe6b70;
+    border-bottom: 1px solid #fe6b70;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.el-dialog {
+    border-radius: 5px !important;
+}
+
+
+/*页面头部样式*/
+.head-box{
+    padding: 15px 0;
+    border-bottom: 1px solid @border-color;
+    .text{
+        color: @adorn-color;
+        font-size: 18px;
+    }
+    .return-icon{
+        font-size: 18px;
+        color: @adorn-color;
+        padding-right: 5px;
+    }
+    .return-icon:hover{
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+/*主体头部*/
+.content-head{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    // border-bottom: 1px solid @border-color;
+}
+/*搜索栏样式*/
+.search-box label{
+    display: inline-block;
+    margin-right: 20px;
+    .el-input{
+        width: 150px;
+        margin-left: 10px;
+    }
+}
+/*分页样式*/
+.page{
+    margin-top: 15px;
+    text-align: center;
+}

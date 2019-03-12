@@ -1,0 +1,62 @@
+.head-box{
+    padding: 15px 0;
+    border-bottom: 1px solid @border-color;
+    .text{
+        color: @adorn-color;
+        font-size: 18px;
+    }
+}
+.data-collect{
+    // padding: 10px 0;
+    border-bottom: 1px solid @border-color;
+    ul{
+        overflow: hidden;
+        margin: 15px 0;
+        :last-child{
+            border: none;
+        }
+    }
+    .item{
+        border-right: 1px solid @border-color;
+        width: 150px;
+        text-align: center;
+        float: left;
+        cursor: pointer;
+        // text-align: center;
+        .text-tip{
+            color: @content-color;
+            margin-bottom: 20px;
+        }
+        .amount{
+            color: @main-color;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+    .active{
+        cursor: default;
+        .amount{
+            color: @content-color;
+        }
+    }
+}
+.main{
+    margin-top: 15px;
+    .btn-right-bar{
+        text-align: right;
+        margin-bottom: 15px;
+        i{
+            margin-right: 5px;
+            font-size: 16px;
+        }
+    }
+    .page{
+        margin-top: 15px;
+        text-align: center;
+    }
+}
+
+
+.el-form--inline .el-form-item {
+    margin-right: 50px;
+}
