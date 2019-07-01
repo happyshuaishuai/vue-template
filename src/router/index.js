@@ -12,7 +12,7 @@ import {
 import Logins from '@/components/Login/index'
 import Home from '@/components/Home/index'
 
-/*客户管理-客户信息*/
+/*xx*/
 import customerInfo from '@/components/modules/customerManagement/customerInfo/index' // 客户信息列表
 
 

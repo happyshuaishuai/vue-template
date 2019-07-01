@@ -17,9 +17,9 @@ echarts UI库
 
 #### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. npm install --安装依赖
+2. npm run dev -- 
+3. npm run build
 
 #### 使用说明
 
@@ -38,7 +38,7 @@ webpack对源码进行编译打包并返回compiler对象
 自动打开浏览器并打开特定网址（localhost:8080）
 
 3. npm run build
-build for production with minification
+打包
 
 #### 参与贡献
 

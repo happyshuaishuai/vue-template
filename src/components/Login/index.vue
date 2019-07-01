@@ -3,9 +3,9 @@
     <!--<div class="home-g">-->
         <div class="home-center">
             <div class="left-logo">
-                <p><img src="../../assets/img/login/logo-white.png" alt=""></p>
-                <p>希古尚博-CRM后台管理系统</p>
-                <p>SHIGOO SYMNOLE INVESTMENTS</p>
+                <!-- <p><img src="../../assets/img/login/logo-white.png" alt=""></p> -->
+                <p>vue解决方案</p>
+                <p>vue解决方案</p>
             </div>
             <div class="right-login">
                 <p class="title">登录 / Sign In</p>
@@ -36,7 +36,7 @@
                 <p><input class="login-button" type="button" @click="loginCenter" value="登 录"/></p>
             </div>
 
-            <p class="home-center-bottom-title"> 成都墨提斯科技有限公司版权所有</p>
+            <p class="home-center-bottom-title"> xuecs @</p>
         </div>
         <img class="bg-left" src="../../assets/img/common/bg-left.png" alt="">
         <img class="bg-right" src="../../assets/img/common/bg-right.png" alt="">

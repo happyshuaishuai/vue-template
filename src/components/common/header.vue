@@ -3,7 +3,7 @@
 | 组件 公用头部
 |--------------------------------------------------------------------------
 |
-| author：辜小芸
+| author：xx
 | data： vuex.userInfo
 | DOTO:  备注
 |
@@ -16,10 +16,10 @@
                 <!--<img :src="bgColorBlue ? '../../assets/img/home/logo-white.png' : '../../assets/img/home/logo.png' " />-->
                 <img src='../../assets/img/home/logo-white.png'/>
                 <!-- <i class="iconfont icon-xigushangbologo"></i> -->
-                <span>希古尚博</span>
+                <span>xx</span>
             </div>
             <div class="logo-r">
-                <p>收银系统-后台管理系统</p>
+                <p>后台管理系统</p>
                 <br>
                 <p>Customer Relationship Management</p>
             </div>
@@ -100,7 +100,7 @@ import { updatePassword } from "../../service/api";
 import { Cascader } from "element-ui";
 import { clearAllCookie } from "../../utils/cookie";
 import { getAuth } from "../../service/authority/index.js";
-import { newDataList } from "../../service/message/index.js";
+// import { newDataList } from "../../service/message/index.js";
 import VueCookies from 'vue-cookies'
 import reHttp from "../../service/http.js"
 //单点登录使用的domain
@@ -183,7 +183,7 @@ export default {
     if (location.hash != "#/" && location.hash != "#/login" && !that.setupAuthState) {
         // that.get_auth();
       that.getMessagePushLenthInterval = setInterval(() => {
-        that.getNewDataList();
+        // that.getNewDataList();
       }, 10000);
     }
     

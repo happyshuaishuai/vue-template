@@ -3,7 +3,7 @@
 | 组件 Echarts pie
 |--------------------------------------------------------------------------
 | 
-| author：薛帅
+| author：xx
 | data： vuex.userInfo
 | DOTO:  Echarts pie组件，
 |

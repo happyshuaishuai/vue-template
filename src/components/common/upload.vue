@@ -1,7 +1,7 @@
 ﻿/*
 |-------------------------------------------------------------------------- | 上传组件 |--------------------------------------------------------------------------
 |
-| author：陈胜云
+| author：xx
 | how it works：
 <Upload :uploadUrl="url" @getUploadList="getUploadList" alreadyList="arr" disabled="false"></Upload>
 | param: url = 当前上传页面的后端请求地址 | getUploadList = 返回最终的图片队列，在页面commit的时候一起发给后端 | alreadyList = 获取到已经上传的图片列表，格式为 [{name:"",url:""}]

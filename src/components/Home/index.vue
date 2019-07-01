@@ -8,7 +8,7 @@
               <router-view/>
           </div>
       </div>
-      <!--<div class="common-footer">成都墨提斯科技有限公司版权所有</div>-->
+      <!--<div class="common-footer">xuecs</div>-->
     </div>
   </div>
 </template>

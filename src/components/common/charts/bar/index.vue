@@ -3,7 +3,7 @@
 | 组件 Echarts bar组件，
 |--------------------------------------------------------------------------
 | 
-| author：薛帅
+| author：xx
 | data： vuex.userInfo
 | DOTO:  Echarts bar组件，
 |
